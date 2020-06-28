@@ -1,8 +1,8 @@
 # gbaDiscord
 
-A discord bot that controls a host computer playing a gba emulator
+A discord bot that controls a host computer playing a gba emulator over a discord stream.
 
-A project made by thefudgeishot
+A project made by thefudgeishot.
 
 
 ## Running it
