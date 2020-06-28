@@ -19,6 +19,8 @@ token = '' # Get bot token from https://discord.com/developers/applications | mo
 prefix = '~' # Edit this to change prefix
 
 
+# There should be no need to change anything below this point
+
 bot = commands.Bot(command_prefix='~')
 
 
@@ -136,5 +138,4 @@ async def on_message(message):
         keyboard.release(keyStart)
 
 
-# input your bot token here
 bot.run(token)
