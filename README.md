@@ -14,11 +14,11 @@ This project requires python 3+ and requirements.txt
 Brew available at brew.sh
 
 ```
-Brew install python3
+$ brew install python3
 ```
 
 ```
-Pip3 install requirements.txt
+$ pip3 install requirements.txt
 ```
 
 ## License
