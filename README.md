@@ -11,15 +11,24 @@ This project requires python 3+ and requirements.txt
 
 ## Mac
 
-Brew available at brew.sh
+Brew available at [brew.sh](https://brew.sh)
 
 ```
 $ brew install python3
 ```
 
+Install requirements
+
 ```
-$ pip3 install requirements.txt
+$ [sudo] pip3 install requirements.txt
 ```
+
+With both a success only then can the project be run with
+
+```
+$ sudo python3 init.py
+```
+
 
 ## License
 
