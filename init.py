@@ -49,7 +49,7 @@ async def on_message(message):
 
 @bot.listen()
 async def on_message(messageone):
-    if messageone.content.startswith(prefix + '~b'):
+    if messageone.content.startswith(prefix + 'b'):
         channel = messageone.channel
 
         emoji = '\N{THUMBS UP SIGN}'
@@ -62,7 +62,7 @@ async def on_message(messageone):
 
 @bot.listen()
 async def on_message(message):
-    if message.content.startswith(prefix + '~up'):
+    if message.content.startswith(prefix + 'up'):
         channel = message.channel
 
         emoji = '\N{THUMBS UP SIGN}'
@@ -75,7 +75,7 @@ async def on_message(message):
 
 @bot.listen()
 async def on_message(message):
-    if message.content.startswith(prefix + '~down'):
+    if message.content.startswith(prefix + 'down'):
         channel = message.channel
 
         emoji = '\N{THUMBS UP SIGN}'
@@ -88,7 +88,7 @@ async def on_message(message):
 
 @bot.listen()
 async def on_message(message):
-    if message.content.startswith(prefix + '~left'):
+    if message.content.startswith(prefix + 'left'):
         channel = message.channel
 
         emoji = '\N{THUMBS UP SIGN}'
@@ -101,7 +101,7 @@ async def on_message(message):
 
 @bot.listen()
 async def on_message(message):
-    if message.content.startswith(prefix + '~right'):
+    if message.content.startswith(prefix + 'right'):
         channel = message.channel
 
         emoji = '\N{THUMBS UP SIGN}'
@@ -114,7 +114,7 @@ async def on_message(message):
 
 @bot.listen()
 async def on_message(message):
-    if message.content.startswith(prefix + '~select'):
+    if message.content.startswith(prefix + 'select'):
         channel = message.channel
 
         emoji = '\N{THUMBS UP SIGN}'
@@ -127,7 +127,7 @@ async def on_message(message):
 
 @bot.listen()
 async def on_message(message):
-    if message.content.startswith(prefix + '~start'):
+    if message.content.startswith(prefix + 'start'):
         channel = message.channel
 
         emoji = '\N{THUMBS UP SIGN}'
